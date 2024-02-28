@@ -377,3 +377,49 @@ body {
     color: var(--body-color);
 }
 
+@media(max-width: 600px) {
+
+    #container {
+        width: 400px;
+        padding: 15px;
+        margin-left: 1.0em;
+    }
+
+    .themeColor-icon input {
+        width: 15px;
+        height: 15px;
+        margin: 10px 4px;
+    }
+
+    .date #today-date {
+        width: 120px;
+        height: 50px;
+      
+    }
+
+    .display #result {
+        width: 380px;
+    }
+
+    .row button{
+        width: 52px;
+    }
+
+    .row button.btn-big {
+        width: 120px;
+        
+    }
+    
+    .row button.btn.math {
+        width: 122px;
+       
+    }
+    
+    .row button.btn.figure {
+        width: 74px;
+       ;
+    }
+
+
+
+}
