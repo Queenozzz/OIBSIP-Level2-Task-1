@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calculator(OASIS)</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/style.css">
 
    
 </head>
@@ -20,8 +20,9 @@
                 <form class="themeColor-icon">
 
                     <fieldset>
-                        <label for="root" class="visually-hidden">root</label>
-                        <input type="radio" name="themeColor" id="root" checked>
+
+                        <label for="stwb" class="visually-hidden">stwb</label>
+                        <input type="radio" name="themeColor" id="stwb" checked>
 
                         <label for="puple" class="visually-hidden">puple</label>
                         <input type="radio" name="themeColor" id="puple" checked>
@@ -44,8 +45,9 @@
                         <label for="carrot" class="visually-hidden">carrot</label>
                         <input type="radio" name="themeColor" id="carrot" checked>
 
-                        <label for="stwb" class="visually-hidden">stwb</label>
-                        <input type="radio" name="themeColor" id="stwb" checked>
+                        <label for="light" class="visually-hidden">root</label>
+                        <input type="radio" name="themeColor" id="root" checked>
+                       
 
                     </fieldset>
                     
@@ -65,8 +67,8 @@
     
         <div class="btns">
             <div class="row">
-                <button id="ce" onclick="backspc()" style="width: 135px; height: 40px;">CE</button>
-                <button onclick="fact()">x !</button>
+                <button class="btn-big" id="ce" onclick="backspc()">CE</button>
+                <button onclick="fact()">!</button>
                 <button onclick="percent()">%</button>
                 <button onclick="pi()">π</button>
                 <button onclick="log()">log</button>
@@ -87,7 +89,7 @@
                 <button class="btn"  onclick="plusMinus()">±</button>
                 <button onclick="sqrt()">√</button>
                 <button onclick="pow()">x <span style="position: relative; bottom: .4em; right: .1em;">2</span></button>
-                <button id="ac" onclick="result.value=''" style="width: 140px; height: 40px;">AC</button>
+                <button class="btn big" id="ac" onclick="result.value=''">AC</button>
 
                  
             </div>
@@ -96,7 +98,7 @@
                 <button onclick="degrees()" style="font-weight: 900;">∘</button>
                 <button onclick="sqrt3()"><span style="position: relative; bottom: .4em; right: .1em;">3</span>√</button>
                 <button onclick="pow3()">x <span style="position: relative; bottom: .4em; right: .1em;">3</span></button>       
-                <button id="eval" onclick="result.value=eval(result.value)" style="width: 140px; height: 40px;">=</button>
+                <button class="btn big" id="eval" onclick="result.value=eval(result.value)">=</button>
                
                 
                
@@ -106,10 +108,10 @@
             </div>
     
             <div class="row">
-                <button class="btn" style="width: 140px; height: 40px;">÷</button>
-                <button class="btn" style="width: 84px; height: 40px;">7</button>
-                <button class="btn" style="width: 84px; height: 40px;">8</button>
-                <button class="btn" style="width: 84px; height: 40px;">9</button>
+                <button class="btn math">÷</button>
+                <button class="btn figure">7</button>
+                <button class="btn figure">8</button>
+                <button class="btn figure">9</button>
                 
                
                 
@@ -118,18 +120,18 @@
             </div>
     
             <div class="row">
-                <button class="btn" style="width: 140px; height: 40px;">×</button>
-                <button class="btn" style="width: 84px; height: 40px;">4</button>
-                <button class="btn" style="width: 84px; height: 40px;">5</button>
-                <button class="btn" style="width: 84px; height: 40px;">6</button>
+                <button class="btn math">×</button>
+                <button class="btn figure">4</button>
+                <button class="btn figure">5</button>
+                <button class="btn figure">6</button>
               
             </div>
     
             <div class="row">
-                <button class="btn" style="width: 140px; height: 40px;">-</button>
-                <button class="btn" style="width: 84px; height: 40px;">1</button>
-                <button class="btn" style="width: 84px; height: 40px;">2</button>
-                <button class="btn" style="width: 84px; height: 40px;">3</button>
+                <button class="btn math">-</button>
+                <button class="btn figure">1</button>
+                <button class="btn figure">2</button>
+                <button class="btn figure">3</button>
                
                 
                 
@@ -137,7 +139,7 @@
             </div>
 
             <div class="row">
-                <button class="btn" style="width: 140px; height: 40px;">+</button>
+                <button class="btn math">+</button>
                 <button onclick="e()">e</button>
                 <button class="btn">0</button>
                 <button class="btn">00</button>
