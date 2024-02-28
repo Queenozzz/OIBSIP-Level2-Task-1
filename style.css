@@ -254,8 +254,6 @@ body {
 .themeColor-icon > fieldset{
     border: 0;
     width: fit-content;
-    /* display: flex; */
-    
 }
 
 
@@ -333,17 +331,17 @@ body {
     
 }
 
-.row button.btn-big{
+.row .btn-big{
     width: 135px; 
     height: 40px;
 }
 
-.row button.btn.math{
+.row .btn.math{
     width: 140px;
     height: 40px;
 }
 
-.row button.btn.figure {
+.row .btn.figure {
     width: 84px; 
     height: 40px;
 }
@@ -415,19 +413,19 @@ body {
         width: 50px;
     }
 
-    .row button.btn-big {
+    .row .btn-big {
         width: 110px;
         height: 30px;
         
     }
     
-    .row button.btn.math {
+    .row .btn.math {
         width: 110px;
         height: 30px;
        
     }
     
-    .row button.btn.figure {
+    .row .btn.figure {
         width: 70px;
         height: 30px;
        
