@@ -362,7 +362,7 @@ body {
     color: var(--body-color);
 }
 
-@media(max-width: 600px){
+@media(max-width: 580px){
 
     #container {
         width: 380px;
@@ -388,7 +388,7 @@ body {
 
     .row button{
         width: 50px;
-         height: 30px;
+        height: 30px;
     }
 
     .row button.btn-big {
@@ -408,37 +408,3 @@ body {
        
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-       
-    }
-    
-    .row button.btn.figure {
-        width: 70px;
-       
-    }
-
-}
-
