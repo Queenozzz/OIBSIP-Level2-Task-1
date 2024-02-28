@@ -5,7 +5,6 @@
  
 }
 
-
 :root,
 :root:has(#root:checked){
     --body-color: #F9F6FE;
@@ -261,9 +260,7 @@ body {
 }
 .themeColor-icon > fieldset{
     border: 0;
-    width: fit-content;
-    /* display: flex; */
-    
+    width: fit-content;    
 }
 
 
@@ -297,9 +294,6 @@ body {
     
 }
 
-
-
-
 .date #today-date {
     margin: 10px ;
     width: 130px;
@@ -313,9 +307,6 @@ body {
     box-shadow:  8px 8px 8px var(--cont11-color),
         -8px -8px 8px var(--cont111-color);
 }
-
-
-
 
 .row button {
     width: 60px;
@@ -417,9 +408,7 @@ body {
     
     .row button.btn.figure {
         width: 74px;
-       ;
+       
     }
-
-
 
 }
